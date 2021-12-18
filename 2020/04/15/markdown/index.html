@@ -119,15 +119,18 @@ mjx-container[display="true"] + br {
 }
 </style></head><body><header><nav><a href="/">Home</a><a href="/archives/">Archives</a></nav></header><main><article><div id="post-bg"><div id="post-title"><div id="post-info"><span>date:<time datetime="2020-04-14T16:58:59.000Z" id="date"> 2020-04-15</time></span><br><span>updated:<time datetime="2020-08-16T07:40:05.481Z" id="updated"> 2020-08-16</time></span></div><h1>Markdown 教程</h1><hr></div><div id="post-content"><h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>👆 看起来就像上面这个。Markdown 标题有两种格式。</p>
 <h2 id="使用-和-标记一级和二级标题"><a href="#使用-和-标记一级和二级标题" class="headerlink" title="使用 = 和 - 标记一级和二级标题"></a>使用 <code>=</code> 和 <code>-</code> 标记一级和二级标题</h2><p><code>=</code> 和 <code>-</code> 标记语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">我展示的是一级标题</span><br><span class="line">=================</span><br><span class="line"></span><br><span class="line">我展示的是二级标题</span><br><span class="line">-----------------</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">我展示的是一级标题</span></span><br><span class="line"><span class="section">=================</span></span><br><span class="line"></span><br><span class="line"><span class="section">我展示的是二级标题</span></span><br><span class="line"><span class="section">-----------------</span></span><br></pre></td></tr></table></figure>
+
 <h2 id="使用-号标记"><a href="#使用-号标记" class="headerlink" title="使用 # 号标记"></a>使用 <code>#</code> 号标记</h2><p>使用 <code>#</code> 号可表示 1-6 级标题，一级标题对应一个 <code>#</code> 号，二级标题对应两个 <code>#</code> 号，以此类推。</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+
 <h1 id="段落样式"><a href="#段落样式" class="headerlink" title="段落样式"></a>段落样式</h1><p>Markdown 段落没有特殊的格式，直接编写文字就好，段落的换行是使用两个以上空格加上回车。<br>当然也可以在段落后面使用一个空行来表示重新开始一个段落。</p>
 <h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>Markdown 可以使用以下几种字体：</p>
 <blockquote>
 <p><em>斜体文本</em><br><strong>粗体文本</strong><br><strong><em>粗斜体文本</em></strong></p>
 </blockquote>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">*斜体文本*</span></span><br><span class="line"><span class="emphasis">_斜体文本_</span></span><br><span class="line"></span><br><span class="line"><span class="strong">**粗体文本**</span></span><br><span class="line"><span class="strong">__粗体文本__</span></span><br><span class="line"></span><br><span class="line"><span class="strong">**<span class="emphasis">*粗斜体文本<span class="strong">**<span class="emphasis">*</span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">__<span class="emphasis">_粗斜体文本<span class="strong">__<span class="emphasis">_</span></span></span></span></span></span></span></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">*斜体文本*</span></span><br><span class="line"><span class="emphasis">_斜体文本_</span></span><br><span class="line"></span><br><span class="line"><span class="strong">**粗体文本**</span></span><br><span class="line"><span class="strong">__粗体文本__</span></span><br><span class="line"></span><br><span class="line"><span class="strong">**<span class="emphasis">*粗斜体文本<span class="strong">**<span class="emphasis">*</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="strong">__<span class="emphasis">_粗斜体文本<span class="strong">__<span class="emphasis">_</span></span></span></span></span></span></span></span></span><br></pre></td></tr></table></figure>
+
 <h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><p>可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。<br>也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
 <blockquote>
 <hr>
@@ -140,17 +143,20 @@ mjx-container[display="true"] + br {
 <p>了</p>
 <hr>
 </blockquote>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="strong"><span class="emphasis">*</span> <span class="emphasis">* *</span></span></span><br><span class="line"><span class="strong">**</span><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="strong"><span class="emphasis">- - -</span></span></span><br><span class="line"><span class="strong"><span class="emphasis">----------</span></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">*</span> <span class="emphasis">* *</span></span></span><br><span class="line"><span class="strong">**</span><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">- - -</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">----------</span></span></span><br></pre></td></tr></table></figure>
+
 <h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <code>~~</code> 即可，实例如下：</p>
 <blockquote>
 <p>RUNOOB.COM<br>GOOGLE.COM<br><del>BAIDU.COM</del></p>
 </blockquote>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RUNOOB.COM</span><br><span class="line">GOOGLE.COM</span><br><span class="line">~~BAIDU.COM~~</span><br></pre></td></tr></table></figure>
+
 <h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>下划线可以通过 HTML 的 <code>&lt;u&gt;</code> 标签来实现：</p>
 <blockquote>
 <p><u>带下划线文本</u></p>
 </blockquote>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">u</span>&gt;</span>带下划线文本<span class="tag">&lt;/<span class="name">u</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
 <h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>脚注是对文本的补充说明。Markdown 脚注的格式如下:</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[^要注明的文本]</span><br></pre></td></tr></table></figure>
 <p>以下实例演示了脚注的用法：</p>
@@ -158,6 +164,7 @@ mjx-container[display="true"] + br {
 <p>阿米娅<a href="%E5%8D%9A%E5%A3%AB%EF%BC%8C%E6%82%A8%E8%BF%98%E6%9C%89%E5%BE%88%E5%A4%9A%E4%BA%8B%E6%83%85%E9%9C%80%E8%A6%81%E5%A4%84%E7%90%86%E3%80%82%E7%8E%B0%E5%9C%A8%E8%BF%98%E4%B8%8D%E8%83%BD%E4%BC%91%E6%81%AF%E5%93%A6%E3%80%82">^阿米娅</a></p>
 </blockquote>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">创建脚注格式类似这样 [^阿米娅]</span><br><span class="line">[<span class="symbol">^阿米娅</span>]: <span class="link">博士，您还有很多事情需要处理。现在还不能休息哦。</span></span><br></pre></td></tr></table></figure>
+
 <h1 id="Markdown-列表"><a href="#Markdown-列表" class="headerlink" title="Markdown 列表"></a>Markdown 列表</h1><p>Markdown 支持有序列表和无序列表。<br>无序列表使用星号(<code>*</code>)、加号(<code>+</code>)或是减号(<code>-</code>)作为列表标记：</p>
 <blockquote>
 <ul>
@@ -176,6 +183,7 @@ mjx-container[display="true"] + br {
 </ol>
 </blockquote>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">2.</span> 第二项</span><br><span class="line"><span class="bullet">3.</span> 第三项</span><br></pre></td></tr></table></figure>
+
 <h2 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h2><p>列表嵌套只需在子列表中的选项添加四个空格即可：</p>
 <ol>
 <li>第一项：<ul>
@@ -190,6 +198,7 @@ mjx-container[display="true"] + br {
 </li>
 </ol>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项：</span><br><span class="line"><span class="bullet">    -</span> 第一项嵌套的第一个元素</span><br><span class="line"><span class="bullet">    -</span> 第一项嵌套的第二个元素</span><br><span class="line"><span class="bullet">2.</span> 第二项：</span><br><span class="line"><span class="bullet">    -</span> 第二项嵌套的第一个元素</span><br><span class="line"><span class="bullet">    -</span> 第二项嵌套的第二个元素</span><br></pre></td></tr></table></figure>
+
 <h1 id="Markdown-区块"><a href="#Markdown-区块" class="headerlink" title="Markdown 区块"></a>Markdown 区块</h1><p>Markdown 区块引用是在段落开头使用 <code>&gt;</code> 符号 ，然后后面紧跟一个空格符号：</p>
 <blockquote>
 <p>这是一个区块</p>
@@ -206,6 +215,7 @@ mjx-container[display="true"] + br {
 </blockquote>
 </blockquote>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 最外层</span></span><br><span class="line"><span class="quote">&gt; &gt; 第一层嵌套</span></span><br><span class="line"><span class="quote">&gt; &gt; &gt; 第二层嵌套</span></span><br></pre></td></tr></table></figure>
+
 <h2 id="区块中使用列表"><a href="#区块中使用列表" class="headerlink" title="区块中使用列表"></a>区块中使用列表</h2><p>区块中使用列表实例如下：</p>
 <blockquote>
 <p>区块中使用列表</p>
@@ -220,6 +230,7 @@ mjx-container[display="true"] + br {
 </ul>
 </blockquote>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 区块中使用列表</span></span><br><span class="line"><span class="quote">&gt; 1. 第一项</span></span><br><span class="line"><span class="quote">&gt; 2. 第二项</span></span><br><span class="line"><span class="quote">&gt; + 第一项</span></span><br><span class="line"><span class="quote">&gt; + 第二项</span></span><br><span class="line"><span class="quote">&gt; + 第三项</span></span><br></pre></td></tr></table></figure>
+
 <h2 id="列表中使用区块"><a href="#列表中使用区块" class="headerlink" title="列表中使用区块"></a>列表中使用区块</h2><p>如果要在列表项目内放进区块，那么就需要在 <code>&gt;</code> 前添加四个空格的缩进。<br>区块中使用列表实例如下：</p>
 <ul>
 <li>第一项<blockquote>
@@ -227,28 +238,42 @@ mjx-container[display="true"] + br {
 </blockquote>
 </li>
 <li>第二项<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">*</span> 第一项</span><br><span class="line"><span class="code">    &gt; 菜鸟教程</span></span><br><span class="line"><span class="code">    &gt; 学的不仅是技术更是梦想</span></span><br><span class="line"><span class="code">* 第二项</span></span><br></pre></td></tr></table></figure>
-<h1 id="Markdown-代码"><a href="#Markdown-代码" class="headerlink" title="Markdown 代码"></a>Markdown 代码</h1>如果是段落上的一个函数或片段的代码可以用反引号把它包起来（`），例如：<br><code>printf()</code> 函数<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">`printf()`</span> 函数</span><br></pre></td></tr></table></figure>
-<h2 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h2>代码区块使用 4 个空格或者一个制表符（Tab 键）。<br>也可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）：<br>实例如下：<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">    alert(<span class="string">'RUNOOB'</span>);</span><br><span class="line">});</span><br></pre></td></tr></table></figure>
-<h1 id="Markdown-链接"><a href="#Markdown-链接" class="headerlink" title="Markdown 链接"></a>Markdown 链接</h1>链接使用方法如下：<blockquote>
+
+</li>
+</ul>
+<h1 id="Markdown-代码"><a href="#Markdown-代码" class="headerlink" title="Markdown 代码"></a>Markdown 代码</h1><p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来（`），例如：<br><code>printf()</code> 函数</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">`printf()`</span> 函数</span><br></pre></td></tr></table></figure>
+<h2 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h2><p>代码区块使用 4 个空格或者一个制表符（Tab 键）。<br>也可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）：<br>实例如下：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">    alert(<span class="string">'RUNOOB'</span>);</span><br><span class="line">});</span><br></pre></td></tr></table></figure>
+
+<h1 id="Markdown-链接"><a href="#Markdown-链接" class="headerlink" title="Markdown 链接"></a>Markdown 链接</h1><p>链接使用方法如下：</p>
+<blockquote>
 <p><a href="#%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a><br>或者直接使用链接地址<br><a target="_blank" rel="noopener" href="https://github.com/Yue-plus">https://github.com/Yue-plus</a></p>
 </blockquote>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">链接地址</span>)</span><br><span class="line"><span class="xml">&lt;https://github.com/Yue-plus&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="高级链接"><a href="#高级链接" class="headerlink" title="高级链接"></a>高级链接</h2>可以通过变量来设置一个链接，变量赋值在文档末尾进行：<blockquote>
+
+<h2 id="高级链接"><a href="#高级链接" class="headerlink" title="高级链接"></a>高级链接</h2><p>可以通过变量来设置一个链接，变量赋值在文档末尾进行：</p>
+<blockquote>
 <p>这个链接用 <code>1</code> 作为网址变量 <a target="_blank" rel="noopener" href="http://www.google.com/">Google</a><br>这个链接用 <code>mysite</code> 作为网址变量 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></p>
 </blockquote>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [<span class="string">Google</span>][<span class="symbol">1</span>]</span><br><span class="line">这个链接用 mysite 作为网址变量 [<span class="string">Yue_plus</span>][<span class="symbol">mysite</span>]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">  [1]: http://www.google.com/</span><br><span class="line">  [mysite]: https://github.com/Yue-plus</span><br></pre></td></tr></table></figure>
-<h1 id="Markdown-图片"><a href="#Markdown-图片" class="headerlink" title="Markdown 图片"></a>Markdown 图片</h1>Markdown 图片语法格式如下：<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址</span>)</span><br><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址 "可选标题"</span>)</span><br></pre></td></tr></table></figure>
-开头一个感叹号 !<br>接着一个方括号，里面放上图片的替代文字<br>接着一个英文括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 ‘title’ 属性的文字。<blockquote>
+
+<h1 id="Markdown-图片"><a href="#Markdown-图片" class="headerlink" title="Markdown 图片"></a>Markdown 图片</h1><p>Markdown 图片语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址</span>)</span><br><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址 "可选标题"</span>)</span><br></pre></td></tr></table></figure>
+<p>开头一个感叹号 !<br>接着一个方括号，里面放上图片的替代文字<br>接着一个英文括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 ‘title’ 属性的文字。</p>
+<blockquote>
 <p><img src="https://ak.hypergryph.com/upload/images/20190228/118078295785f64dac736c6ade50bb76.jpg" alt="罗德岛集结" title="罗德岛集结"></p>
 </blockquote>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">罗德岛集结</span>](<span class="link">https://ak.hypergryph.com/upload/images/20190228/118078295785f64dac736c6ade50bb76.jpg "罗德岛集结"</span>)</span><br></pre></td></tr></table></figure>
-当然，你也可以像网址那样对图片网址使用变量:<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">这个链接用 <span class="code">`2`</span> 作为网址变量 [<span class="string">凯尔希</span>][<span class="symbol">2</span>].</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[<span class="symbol">2</span>]: <span class="link">https://ak.hypergryph.com/upload/images/20190228/143666074a406ecaa6cd4271dc7c5127.jpg</span></span><br></pre></td></tr></table></figure>
-Markdown 还没有办法指定图片的高度与宽度，如果需要的话，也可以使用普通的 <code>&lt;img&gt;</code> 标签。<blockquote>
+<p>当然，你也可以像网址那样对图片网址使用变量:</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">这个链接用 <span class="code">`2`</span> 作为网址变量 [<span class="string">凯尔希</span>][<span class="symbol">2</span>].</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[<span class="symbol">2</span>]: <span class="link">https://ak.hypergryph.com/upload/images/20190228/143666074a406ecaa6cd4271dc7c5127.jpg</span></span><br></pre></td></tr></table></figure>
+<p>Markdown 还没有办法指定图片的高度与宽度，如果需要的话，也可以使用普通的 <code>&lt;img&gt;</code> 标签。</p>
+<blockquote>
 <img src="https://ak.hypergryph.com/assets/index/images/ak/common/story/item_infected.png" width="200px">
 </blockquote>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"https://ak.hypergryph.com/assets/index/images/ak/common/story/item_infected.png"</span> <span class="attr">width</span>=<span class="string">"200px"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="Markdown-表格"><a href="#Markdown-表格" class="headerlink" title="Markdown 表格"></a>Markdown 表格</h1>Markdown 制作表格使用 <code>|</code> 来分隔不同的单元格，使用 <code>-</code> 来分隔表头和其他行。<br>语法格式如下：</li>
-</ul>
+
+<h1 id="Markdown-表格"><a href="#Markdown-表格" class="headerlink" title="Markdown 表格"></a>Markdown 表格</h1><p>Markdown 制作表格使用 <code>|</code> 来分隔不同的单元格，使用 <code>-</code> 来分隔表头和其他行。<br>语法格式如下：</p>
 <table>
 <thead>
 <tr>
@@ -266,6 +291,7 @@ Markdown 还没有办法指定图片的高度与宽度，如果需要的话，�
 </tr>
 </tbody></table>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
+
 <p>可以设置表格的对齐方式：</p>
 <p><code>-:</code> 设置内容和标题栏居右对齐。<br><code>:-</code> 设置内容和标题栏居左对齐。<br><code>:-:</code> 设置内容和标题栏居中对齐。</p>
 <table>
@@ -292,6 +318,7 @@ Markdown 还没有办法指定图片的高度与宽度，如果需要的话，�
 <p>使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑</p>
 </blockquote>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用 <span class="xml"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span></span>Ctrl<span class="xml"><span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span>+<span class="xml"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span></span>Alt<span class="xml"><span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span>+<span class="xml"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span></span>Del<span class="xml"><span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span> 重启电脑</span><br></pre></td></tr></table></figure>
+
 <h2 id="转义"><a href="#转义" class="headerlink" title="转义"></a>转义</h2><p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：</p>
 <blockquote>
 <p>** 正常显示星号 **</p>
@@ -299,6 +326,7 @@ Markdown 还没有办法指定图片的高度与宽度，如果需要的话，�
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**文本加粗**</span> </span><br><span class="line">\<span class="emphasis">*\*</span> 正常显示星号 \<span class="emphasis">*\*</span></span><br></pre></td></tr></table></figure>
 <p>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line"><span class="bullet">*</span>   星号</span><br><span class="line"><span class="emphasis">_   下划线</span></span><br><span class="line"><span class="emphasis">{}  花括号</span></span><br><span class="line"><span class="emphasis">[]  方括号</span></span><br><span class="line"><span class="emphasis">()  小括号</span></span><br><span class="line"><span class="emphasis">#   井字号</span></span><br><span class="line"><span class="emphasis">+   加号</span></span><br><span class="line"><span class="emphasis">-   减号</span></span><br><span class="line"><span class="emphasis">.   英文句点</span></span><br><span class="line"><span class="emphasis">!   感叹号</span></span><br></pre></td></tr></table></figure>
+
 <h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：</p>
 <blockquote>
 <p>参考 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights#%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F">使用 <code>hexo-filter-mathjax</code> 过滤器来显示数学公式</a></p>
