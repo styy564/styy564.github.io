@@ -5,10 +5,34 @@
 @font-face {
  font-family: 'JetBrains Mono';
  src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
-}</style><meta name="generator" content="Hexo 5.4.0"></head><body><header><nav><a href="/">Home</a><a href="/archives/">Archives</a></nav></header><main><article><div id="post-bg"><div id="post-title"><div id="post-info"><span>date:<time datetime="2022-01-26T06:16:05.000Z" id="date"> 2022-01-26</time></span><br><span>updated:<time datetime="2022-01-26T06:44:47.764Z" id="updated"> 2022-01-26</time></span></div><h1>music player test</h1><hr></div><div id="post-content">
+}</style><meta name="generator" content="Hexo 5.4.0"><link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+</head><body><header><nav><a href="/">Home</a><a href="/archives/">Archives</a></nav></header><main><article><div id="post-bg"><div id="post-title"><div id="post-info"><span>date:<time datetime="2022-01-26T06:16:05.000Z" id="date"> 2022-01-26</time></span><br><span>updated:<time datetime="2022-01-26T06:56:28.499Z" id="updated"> 2022-01-26</time></span></div><h1>music player test</h1><hr></div><div id="post-content">
 			<script>
 				console.error("Error: [hexo-tag-aplayer] Specified asset file not found ([https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png])");
-			</script><div id="paginator"></div></div><div id="post-footer"><hr><a href="/2022/01/20/base64-test/">base64_test Next →</a><hr></div><div id="bottom-btn"><a id="to-top" href="#post-title" title="to top">∧</a></div><div id="Valine"></div><script>new Valine({
+			</script>
+
+
+        <div id="aplayer-TgyrUfMu" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-TgyrUfMu"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "M01 Amiya's Violin Solo FIN",
+              author: "Hypergryph",
+              url: "https://web.hycdn.cn/hypergryph/official/assets/audio/10.c8b23f.mp3",
+              pic: "https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script><div id="paginator"></div></div><div id="post-footer"><hr><a href="/2022/01/20/base64-test/">base64_test Next →</a><hr></div><div id="bottom-btn"><a id="to-top" href="#post-title" title="to top">∧</a></div><div id="Valine"></div><script>new Valine({
  el: '#Valine'
  , appId: 'fbuxalkzhd1naNbL8IHdIYYi-9Nh9j0Va'
  , appKey: 'gbjU6DtmmWDBuabgn0aaEb9t'
